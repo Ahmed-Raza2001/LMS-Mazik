@@ -83,6 +83,7 @@
     <Content Include="Img\Mazik Logo.JPG" />
     <Content Include="Img\undraw_remotely_2j6y.svg" />
     <Content Include="Login.aspx" />
+    <Content Include="MarksDetailUserControl.ascx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -251,6 +252,12 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MarksDetailUserControl.ascx.cs">
+      <DependentUpon>MarksDetailUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="MarksDetailUserControl.ascx.designer.cs">
+      <DependentUpon>MarksDetailUserControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Models\CommonFn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
